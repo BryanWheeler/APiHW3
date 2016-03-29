@@ -1,0 +1,48 @@
+{
+	"id": "4b46b1e4-06fd-d626-31d2-51e63a4e3c1b",
+	"name": "API-HW3",
+	"description": "",
+	"order": [
+		"bf9012ba-04e3-a99d-b258-618c204cf6ca"
+	],
+	"folders": [],
+	"timestamp": 1459222024268,
+	"owner": "327811",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "bf9012ba-04e3-a99d-b258-618c204cf6ca",
+			"headers": "",
+			"url": "https://chikarabw-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "4b46b1e4-06fd-d626-31d2-51e63a4e3c1b",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "Dnhj4AnCORAT6uYhExrnnFCfX62M4BuM",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "xGW44I4WWc4kOa5B",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://chikarabw-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1459222024268,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Response time is less than 300ms\"] = responseTime < 300;\n\n\ntests[\"subtitle\"] = responseBody.has(\"The Enigma\");",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

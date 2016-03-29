@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="GitBoop">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1459207710708</CreatedAt>
+    <CreatedBy>bryan.c.wheeler@ucdenver.edu</CreatedBy>
+    <Description></Description>
+    <DisplayName>GitBoop</DisplayName>
+    <LastModifiedAt>1459207947801</LastModifiedAt>
+    <LastModifiedBy>bryan.c.wheeler@ucdenver.edu</LastModifiedBy>
+    <Policies>
+        <Policy>Validation</Policy>
+        <Policy>remove-header-authorization</Policy>
+        <Policy>verify-oauth-v2-access-token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
